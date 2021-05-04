@@ -1,5 +1,5 @@
 # No More League
-A service that deletes League of Legends that cannot be removed normally.
+A service that keeps deleting League of Legends that cannot be removed normally.
 
 ## How to install:
 
