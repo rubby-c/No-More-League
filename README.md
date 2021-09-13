@@ -10,7 +10,7 @@ Run this in the visual studio developer console: ```installutil [executable]```
 (If you do not have Visual Studio installed)
 
 - Compile or download a release and run this in admin powershell.
-- Make sure to replace "Path_to_the_exe_file" with the path to the executable.
+- Make sure to replace "[executable]" with the path to the executable.
 ```
 New-Service -Name "No More League" -BinaryPathName [executable]
 ```
