@@ -5,14 +5,14 @@ A service that keeps deleting League of Legends that cannot be removed normally.
 
 (If you have Visual Studio installed)
 
-Run this in the visual studio developer console: ```installutil Path_to_the_exe_file```
+Run this in the visual studio developer console: ```installutil [executable]```
 
 (If you do not have Visual Studio installed)
 
 - Compile or download a release and run this in admin powershell.
 - Make sure to replace "Path_to_the_exe_file" with the path to the executable.
 ```
-New-Service -Name "No More League" -BinaryPathName Path_to_the_exe_file
+New-Service -Name "No More League" -BinaryPathName [executable]
 ```
 
 <details> 
@@ -22,7 +22,7 @@ New-Service -Name "No More League" -BinaryPathName Path_to_the_exe_file
   
   Run this in the visual studio developer console: 
   
-  ```installutil /u Path_to_the_exe_file```
+  ```installutil /u [executable]```
   
   ### (If you do not have visual studio installed)
   1st way: Run Windows in safe mode and delete the executable file.
